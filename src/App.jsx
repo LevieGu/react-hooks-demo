@@ -36,9 +36,11 @@ function App() {
       {clicked ? (
         <>
           <Button onClick={clickChange} style={{ marginBottom: 36 }}>返回</Button>
-          <Switch>
-            {route.map((v, k) => <Route key={k} component={v.page} path={v.path} />)}
-          </Switch>
+          <div>
+            <Switch>
+              {route.map((v, k) => <Route key={k} component={v.page} path={v.path} />)}
+            </Switch>
+          </div>
         </>
       ) : (
         <LinkWarp>
