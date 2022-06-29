@@ -2,13 +2,15 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/jest': ^28.1.1
+  '@types/node': ^17.0.41
   jest: ^28.1.1
   ts-jest: ^28.0.4
   typescript: ^4.7.3
 
 devDependencies:
   '@types/jest': registry.npmmirror.com/@types/jest/28.1.1
-  jest: registry.npmmirror.com/jest/28.1.1
+  '@types/node': registry.npmmirror.com/@types/node/17.0.41
+  jest: registry.npmmirror.com/jest/28.1.1_@types+node@17.0.41
   ts-jest: registry.npmmirror.com/ts-jest/28.0.4_vz6zla63wvofljfl6elifyg77e
   typescript: registry.npmmirror.com/typescript/4.7.3
 
@@ -1676,8 +1678,9 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/jest-cli/28.1.1:
+  registry.npmmirror.com/jest-cli/28.1.1_@types+node@17.0.41:
     resolution: {integrity: sha512-+sUfVbJqb1OjBZ0OdBbI6OWfYM1i7bSfzYy6gze1F1w3OKWq8ZTEKkZ8a7ZQPq6G/G1qMh/uKqpdWhgl11NFQQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jest-cli/-/jest-cli-28.1.1.tgz}
+    id: registry.npmmirror.com/jest-cli/28.1.1
     name: jest-cli
     version: 28.1.1
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
@@ -1695,7 +1698,7 @@ packages:
       exit: registry.npmmirror.com/exit/0.1.2
       graceful-fs: registry.npmmirror.com/graceful-fs/4.2.10
       import-local: registry.npmmirror.com/import-local/3.1.0
-      jest-config: registry.npmmirror.com/jest-config/28.1.1
+      jest-config: registry.npmmirror.com/jest-config/28.1.1_@types+node@17.0.41
       jest-util: registry.npmmirror.com/jest-util/28.1.1
       jest-validate: registry.npmmirror.com/jest-validate/28.1.1
       prompts: registry.npmmirror.com/prompts/2.4.2
@@ -1704,46 +1707,6 @@ packages:
       - '@types/node'
       - supports-color
       - ts-node
-    dev: true
-
-  registry.npmmirror.com/jest-config/28.1.1:
-    resolution: {integrity: sha512-tASynMhS+jVV85zKvjfbJ8nUyJS/jUSYZ5KQxLUN2ZCvcQc/OmhQl2j6VEL3ezQkNofxn5pQ3SPYWPHb0unTZA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jest-config/-/jest-config-28.1.1.tgz}
-    name: jest-config
-    version: 28.1.1
-    engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
-    peerDependencies:
-      '@types/node': '*'
-      ts-node: '>=9.0.0'
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      ts-node:
-        optional: true
-    dependencies:
-      '@babel/core': registry.npmmirror.com/@babel/core/7.18.2
-      '@jest/test-sequencer': registry.npmmirror.com/@jest/test-sequencer/28.1.1
-      '@jest/types': registry.npmmirror.com/@jest/types/28.1.1
-      babel-jest: registry.npmmirror.com/babel-jest/28.1.1_@babel+core@7.18.2
-      chalk: registry.npmmirror.com/chalk/4.1.2
-      ci-info: registry.npmmirror.com/ci-info/3.3.1
-      deepmerge: registry.npmmirror.com/deepmerge/4.2.2
-      glob: registry.npmmirror.com/glob/7.2.3
-      graceful-fs: registry.npmmirror.com/graceful-fs/4.2.10
-      jest-circus: registry.npmmirror.com/jest-circus/28.1.1
-      jest-environment-node: registry.npmmirror.com/jest-environment-node/28.1.1
-      jest-get-type: registry.npmmirror.com/jest-get-type/28.0.2
-      jest-regex-util: registry.npmmirror.com/jest-regex-util/28.0.2
-      jest-resolve: registry.npmmirror.com/jest-resolve/28.1.1
-      jest-runner: registry.npmmirror.com/jest-runner/28.1.1
-      jest-util: registry.npmmirror.com/jest-util/28.1.1
-      jest-validate: registry.npmmirror.com/jest-validate/28.1.1
-      micromatch: registry.npmmirror.com/micromatch/4.0.5
-      parse-json: registry.npmmirror.com/parse-json/5.2.0
-      pretty-format: registry.npmmirror.com/pretty-format/28.1.1
-      slash: registry.npmmirror.com/slash/3.0.0
-      strip-json-comments: registry.npmmirror.com/strip-json-comments/3.1.1
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   registry.npmmirror.com/jest-config/28.1.1_@types+node@17.0.41:
@@ -2146,8 +2109,9 @@ packages:
       supports-color: registry.npmmirror.com/supports-color/8.1.1
     dev: true
 
-  registry.npmmirror.com/jest/28.1.1:
+  registry.npmmirror.com/jest/28.1.1_@types+node@17.0.41:
     resolution: {integrity: sha512-qw9YHBnjt6TCbIDMPMpJZqf9E12rh6869iZaN08/vpOGgHJSAaLLUn6H8W3IAEuy34Ls3rct064mZLETkxJ2XA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jest/-/jest-28.1.1.tgz}
+    id: registry.npmmirror.com/jest/28.1.1
     name: jest
     version: 28.1.1
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
@@ -2161,7 +2125,7 @@ packages:
       '@jest/core': registry.npmmirror.com/@jest/core/28.1.1
       '@jest/types': registry.npmmirror.com/@jest/types/28.1.1
       import-local: registry.npmmirror.com/import-local/3.1.0
-      jest-cli: registry.npmmirror.com/jest-cli/28.1.1
+      jest-cli: registry.npmmirror.com/jest-cli/28.1.1_@types+node@17.0.41
     transitivePeerDependencies:
       - '@types/node'
       - supports-color
@@ -2805,7 +2769,7 @@ packages:
     dependencies:
       bs-logger: registry.npmmirror.com/bs-logger/0.2.6
       fast-json-stable-stringify: registry.npmmirror.com/fast-json-stable-stringify/2.1.0
-      jest: registry.npmmirror.com/jest/28.1.1
+      jest: registry.npmmirror.com/jest/28.1.1_@types+node@17.0.41
       jest-util: registry.npmmirror.com/jest-util/28.1.1
       json5: registry.npmmirror.com/json5/2.2.1
       lodash.memoize: registry.npmmirror.com/lodash.memoize/4.1.2
