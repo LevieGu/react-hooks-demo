@@ -59,7 +59,7 @@ vim.keymap.set({ "n", "i" }, "<Down>", "<Nop>")
 
 -- select open file --
 vim.keymap.set("n", "<A-Tab>", "<cmd>bNext<CR>")
--- close current file -- 
+-- close current file --
 vim.keymap.set("n", "<leader>bc", "<cmd>bd<CR>")
 -- move line --
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
