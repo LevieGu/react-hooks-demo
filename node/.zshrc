@@ -7,3 +7,6 @@ function cd() {
 # if use zsh-z
 # update zsh-z config
 export ZSHZ_CD="cd"
+
+# open terminal exec n
+eval "$(n)"
